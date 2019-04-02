@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func secondMain() {
 	primes := [6]int{2, 3, 5, 7, 11, 13}
 
 	var sliceOfPrimes []int = primes[1:4] //dynamically-sized, flexible view of the elements of an array
