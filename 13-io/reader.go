@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func main() {
+func firstMain() { //rename to main for its execution
 
 	reader := strings.NewReader("Hello, Reader!")
 
