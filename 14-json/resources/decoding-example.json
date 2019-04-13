@@ -1,0 +1,15 @@
+[
+    {
+            "name": "petstore-test",
+            "location": "location-test",
+            "dogs": [
+                    {
+                            "name": "pet-test",
+                            "breed": "breed-test"
+                    },
+                    {
+                            "name": "pet-other-test"
+                    }
+            ]
+    }
+]
