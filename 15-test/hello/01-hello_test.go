@@ -1,4 +1,4 @@
-package main
+package hello
 
 import (
 	"testing"
@@ -63,4 +63,11 @@ func TestHelloRefactored(t *testing.T) {
 		actual := Hello("Javi!", "Spanish")
 		assertCorrectMessage(t, actual, expected)
 	})
+
+	t.Run("say hello in French", func(t *testing.T) {
+		expected := "Bonjour Javi!"
+		actual := HelloSwitch("Javi!", "French")
+		assertCorrectMessage(t, actual, expected)
+	})
+
 }
