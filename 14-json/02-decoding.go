@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	petstoreList := make([]*model.Petstore, 5)
+	petstoreList := make([]*model.Petstore, 5) //TODO: Consider to extract PetstoreList to struct
 	bytes, err := ioutil.ReadFile("resources/decoding-example.json")
 	if err != nil {
 		fmt.Printf("Error reading file: %v\n", err)
