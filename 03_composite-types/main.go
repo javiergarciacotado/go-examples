@@ -80,5 +80,13 @@ func main() {
 	makeAnotherWithZeroLength = append(makeAnotherWithZeroLength, 5, 6, 7, 8)
 	fmt.Println("make another initial len/cap", makeAnotherWithZeroLength, len(makeAnotherWithZeroLength), cap(makeAnotherWithZeroLength))
 
-	//Tip: never specify a capacity that's less than length (mostly sure your program will panic at runtime
+	// Tip: never specify a capacity that's less than length (mostly sure your program will panic at runtime
+
+	// wip
+
+	// Slicing slices
+
+	// converting arrays to slices
+
+	// Maps
 }
